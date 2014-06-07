@@ -36,7 +36,7 @@ define(function(require) {
 		// args using apply, but subsequence tasks via direct invocation
 		var runTask = function(args, task) {
 			runTask = function(arg, task) {
-				return task(arg);
+				return task.call(self, arg);
 			};
 
 			return task.apply(self, args);
