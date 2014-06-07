@@ -1,0 +1,22 @@
+{
+	"name": "pipeline-with-this",
+	"version": "1.0.0",
+	"description": "A when.pipeline with a 'this' context",
+	"main": "pipeline-with-this.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rektide/pipeline-with-this.git"
+	},
+	"author": "rektide",
+	"license": "X",
+	"bugs": {
+		"url": "https://github.com/rektide/pipeline-with-this/issues"
+	},
+	"homepage": "https://github.com/rektide/pipeline-with-this",
+	"dependencies": {
+		"when": "^3.2.3"
+	}
+}
